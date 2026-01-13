@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 - Privacy Policy & Terms of Use</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="app_icon.ico">
+    <link rel="icon" type="image/png" href="app_icon.png">
+    <link rel="apple-touch-icon" href="app_icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #1565C0;
+            /* textDark */
+            --accent-color: #0288D1;
+            /* Tile Color 256 */
+            --bg-body: #E3F2FD;
+            /* background */
+            --bg-container: #FFFFFF;
+            --bg-grid: #BBDEFB;
+            /* gridBackground */
+            --text-main: #37474F;
+            --text-light: #FFFFFF;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--bg-container);
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(21, 101, 192, 0.1);
+            overflow: hidden;
+        }
+
+        /* Banner Section */
+        .banner-container {
+            width: 100%;
+            /* This keeps the banner perfectly sized (1024x300) on all screens */
+            aspect-ratio: 1024 / 300;
+            background-color: #FFFFFF;
+            /* Changed to white to match your image background */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .banner-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Placeholder styling if image is missing */
+            background: linear-gradient(135deg, var(--bg-grid) 0%, var(--primary-color) 100%);
+        }
+
+
+        .content-padding {
+            padding: 40px;
+        }
+
+        /* Typography */
+        h1,
+        h2,
+        h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+
+        .developer-name {
+            text-align: center;
+            color: var(--accent-color);
+            font-weight: 700;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+
+        h2 {
+            font-weight: 700;
+            font-size: 1.8rem;
+            border-bottom: 3px solid var(--bg-grid);
+            padding-bottom: 10px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--accent-color);
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        p,
+        li {
+            font-size: 1rem;
+            color: #455A64;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        /* Navigation Tabs */
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            background: var(--bg-grid);
+            padding: 5px;
+            border-radius: 50px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .nav-link {
+            flex: 1;
+            text-align: center;
+            padding: 10px 20px;
+            border-radius: 40px;
+            text-decoration: none;
+            color: var(--primary-color);
+            font-weight: 700;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .nav-link.active {
+            background-color: var(--primary-color);
+            color: var(--text-light);
+            box-shadow: 0 4px 10px rgba(21, 101, 192, 0.3);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #F5F5F5;
+            color: #78909C;
+            font-size: 0.9rem;
+            margin-top: 40px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .content-padding {
+                padding: 20px;
+            }
+
+            .banner-container {
+                height: 150px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="banner-container">
+            <img src="banner.svg" alt="Banner" class="banner-image">
+        </div>
+
+        <div class="content-padding">
+            <div class="developer-name">Developed by Hellacious Ra</div>
+
+            <div class="nav-tabs">
+                <a href="#privacy" class="nav-link">Privacy Policy</a>
+                <a href="#terms" class="nav-link">Terms of Use</a>
+            </div>
+
+            <div id="privacy">
+                <h2>Privacy Policy</h2>
+                <p><strong>Last Updated:</strong> January 12, 2026</p>
+
+                <p>Your privacy is important to us. We do not collect any personal information that can identify you
+                    (such as your name or address). However, our app uses third-party services that may collect
+                    anonymous data to help us improve the game and fix errors.</p>
+
+                <h3>Scope</h3>
+                <p>This Privacy Policy applies to the use of <strong>2048: Tinted Elements</strong></p>
+
+                <h3>Data Collection</h3>
+                <p>We use trusted third-party services to ensure our app runs smoothly. These services may collect data
+                    such as your device model, operating system version, and crash logs.</p>
+                <ul>
+                    <li><strong>Google Analytics for Firebase:</strong> Collects anonymous usage data to help us
+                        understand how users interact with the app.</li>
+                    <li><strong>Firebase Crashlytics:</strong> Collects error reports and crash logs. This helps us
+                        identify bugs and improve app stability.</li>
+                </ul>
+                <p>These services are provided by Google. For more details on how they handle data, please refer to:
+                    <a href="https://policies.google.com/technologies/partner-sites" target="_blank">How Google uses
+                        data when you use our partner's sites or apps</a>.
+                </p>
+
+                <h3>Consent</h3>
+                <p>By installing and using the app, you consent to the collection of this anonymous data.</p>
+
+                <h3>Opt-out Rights</h3>
+                <p>You can stop all collection of information by uninstalling the application. You may use the standard
+                    uninstall processes as may be available as part of your mobile device or via the mobile application
+                    marketplace or network.</p>
+            </div>
+
+            <div id="terms">
+                <h2>Terms of Use</h2>
+                <p>By downloading or using the <strong>2048: Tinted Elements</strong> app by <strong>Hellacious
+                        Ra</strong>, these terms
+                    automatically apply to you.</p>
+
+                <h3>1. License & Use</h3>
+                <p>Hellacious Ra grants you a personal, non-transferable, non-exclusive license to use this app on your
+                    devices for personal, non-commercial use. You are not allowed to copy or modify the app, any part of
+                    the app, or our trademarks in any way.</p>
+
+                <h3>2. Intellectual Property</h3>
+                <p>The app itself, and all trademarks, copyright, database rights, and other intellectual property
+                    rights related to it, belong to Hellacious Ra.</p>
+
+                <h3>3. Service Modifications</h3>
+                <p>We are committed to making our app as useful as possible. We reserve the right to make changes to the
+                    app or to charge for its services, at any time and for any reason. We will never charge you for the
+                    app or its services without making it very clear exactly what you’re paying for.</p>
+
+                <h3>4. System Requirements</h3>
+                <p>The requirements for the system (and for any additional systems we decide to extend availability to)
+                    may change, and you’ll need to download the updates if you want to keep using the app. We do not
+                    promise that we will always update the app so that it is relevant to you and/or works with the
+                    Android version that you have installed on your device.</p>
+
+                <h3>5. Limitation of Liability</h3>
+                <p>The app is provided "as is" without warranty of any kind. Hellacious Ra is not responsible for any
+                    data loss (including game progress) resulting from device failure, uninstallation, or corruption of
+                    local files.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Hellacious Ra. All rights reserved.</p>
+            <p>Contact: hellaciousra@gmail.com</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
